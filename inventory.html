@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Inventory Database Schema — A database management project by Carl Gabriel Resquicio using SQL and relational database design.">
+    <title>Inventory System | CGR Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="site-header">
+        <a href="index.html" class="logo" aria-label="Carl Gabriel Resquicio — Home">
+            <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            </svg>
+            <span class="logo-text">Carl Resquicio</span>
+        </a>
+        <nav aria-label="Main navigation">
+            <ul class="nav-links">
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#expertise">Skills</a></li>
+                <li><a href="index.html#portfolio">Work</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="index.html#portfolio" class="cta-btn">← All Projects</a>
+        <button class="hamburger" id="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+        <ul>
+            <li><a href="index.html#about" class="mobile-link">About</a></li>
+            <li><a href="index.html#expertise" class="mobile-link">Skills</a></li>
+            <li><a href="index.html#portfolio" class="mobile-link">Work</a></li>
+            <li><a href="index.html#contact" class="mobile-link">Contact</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <article class="inner-page" aria-labelledby="project-title">
+
+            <div class="inner-page-hero reveal">
+                <span class="inner-page-type"></span>
+                <h1 class="inner-page-title" id="project-title">Inventory<br><em style="font-style:italic; color:var(--highlight)">Database Schema</em></h1>
+                <p class="inner-page-desc">
+                    A relational database system designed to track store inventory — covering product
+                    records, stock levels, supplier data, and transaction logs. Built with SQL and
+                    integrated with a simple web-based dashboard for data display and management.
+                </p>
+            </div>
+
+            <div class="gallery-grid" style="margin-top: 1rem; margin-bottom: 3.5rem;">
+                
+                <div class="gallery-card reveal delay-1">
+                    <div class="gallery-img-box" style="background-color: #1a1d24;">
+                        <img src="Main Interface.png" alt="StockSense Inventory Dashboard Main Interface" style="width: 100%; height: 100%; object-fit: cover; cursor: zoom-in;">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Main Dashboard</h3>
+                        <p>Core Inventory UI & Metrics</p>
+                        <div class="gallery-tags">
+                            <span class="tag">UI/UX</span>
+                            <span class="tag">DASHBOARD</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="gallery-card reveal delay-2">
+                    <div class="gallery-img-box" style="background-color: #1a1d24;">
+                        <img src="Stock movements.png" alt="Inventory Stock Movements and Activity Log" style="width: 100%; height: 100%; object-fit: cover; cursor: zoom-in;">
+                    </div>
+                    <div class="gallery-info">
+                        <h3>Activity & Analytics</h3>
+                        <p>Transaction Logs & Stock Distribution</p>
+                        <div class="gallery-tags">
+                            <span class="tag">DATA VISUALIZATION</span>
+                            <span class="tag">LOGS</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Meta and content sections remain the same -->
+
+            <nav class="inner-nav" aria-label="Project navigation">
+                <a href="paresalamat.html" class="inner-nav-link">← Previous: Paresalamat Website</a>
+                <a href="multimedia.html" class="inner-nav-link">Next Project: Multimedia Case Study →</a>
+            </nav>
+
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-inner">
+            <a href="index.html" class="footer-logo">RESQUICIO</a>
+            <nav aria-label="Footer navigation">
+                <ul class="footer-nav">
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#portfolio">Work</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <p class="footer-copy">© 2026 Carl Gabriel Resquicio. Built with HTML5 &amp; CSS3.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
